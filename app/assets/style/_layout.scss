@@ -1,0 +1,63 @@
+// nav
+
+nav {
+    li a {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffc732;
+        &:hover {
+            color: #38596b;
+        }
+    }
+}
+
+h1 {
+    font-size: 48px;
+    font-family: "Dancing Script", cursive;
+    a {
+        color: #ffc732;
+        &:hover {
+            color: #ffc732;
+        }
+    }
+}
+
+// subscribe
+
+.subscribe {
+    background: #eceff1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    img {
+        width: 520px;
+        margin-left: 96px;
+        border-radius: 10%;
+    }
+    .subscribe-text {
+        font-size: 48px;
+        font-weight: bold;
+        color: #38596b;
+    }
+    button {
+        color: white;
+        font-weight: bold;
+    }
+}
+
+// footer
+
+footer {
+    background: #1b3246;
+    h2 {
+        font-size: 36px;
+        font-family: "Dancing Script", cursive;
+        a {
+            color: white;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}

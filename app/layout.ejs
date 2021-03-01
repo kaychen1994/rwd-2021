@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=RocknRoll+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="d-flex align-items-center p-3">
+    <h1>
+      <a href="#">Hello Wolrd</a>
+    </h1>
+    <ul class="d-flex mt-2 ml-5">
+      <li class="mr-4">
+        <a href="#">關於我們</a>
+      </li>
+      <li class="mr-4">
+        <a href="#">旅遊方案</a>
+      </li>
+      <li class="mr-4">
+        <a href="#">優惠活動</a>
+      </li>
+      <li class="mr-4">
+        <a href="#">聯絡我們</a>
+      </li>
+    </ul>
+  </nav>
+
+  <%- contents %>
+
+    <section class="subscribe">
+      <div>
+        <p class="subscribe-text">訂閱 <em class="logo-font">Hello World</em> 最新優惠消息</p>
+        <input type="text" class="form-control mb-3" placeholder="輸入 Email">
+        <button type="button" class="btn btn-warning main-btn px-5">訂閱</button>
+      </div>
+      <img src="assets/images/subscribe.jpg" alt="">
+    </section>
+    <footer class="footer p-3 d-flex align-items-center justify-content-around">
+      <h2><a href="#">Hello Wolrd</a></h2>
+      <p class="text-light">Copyright © 2021 Hello World All Rights Reserved.</p>
+      <p class="text-light">0800-000-000</p>
+    </footer>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

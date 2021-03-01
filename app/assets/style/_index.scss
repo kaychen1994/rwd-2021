@@ -1,0 +1,38 @@
+.bg-1 {
+    background-image: url(../images/lake.jpg);
+}
+.bg-2 {
+    background-image: url(../images/aurora.jpg);
+}
+.bg-3 {
+    background-image: url(../images/fuji.jpg);
+}
+.banner {
+    min-height: 90vh;
+    position: relative;
+}
+.banner-content {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    text-shadow: 3px 3px rgb(59, 59, 59);
+    button {
+        color: white;
+        font-weight: bold;
+    }
+}
+
+.features {
+    background: #eceff1;
+    p {
+        color: #38596B;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+.features-icon {
+    font-size: 80px;
+}
